@@ -10,7 +10,7 @@ export default {
   plugins: [
     tailwindcss(),
     vikeLite({
-      serverEntry: 'server/index.ts',
+      serverEntry: 'server/index.ts'
     }),
     vikeLiteReact(),
     ...process.env.NODE_ENV === 'production' ? [
