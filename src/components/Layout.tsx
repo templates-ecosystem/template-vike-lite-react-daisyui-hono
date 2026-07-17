@@ -1,5 +1,5 @@
-import './styles.css'
-import './tailwind.css'
+import '@/styles/styles.css'
+import '@/styles/tailwind.css'
 
 import type { JSX } from 'react'
 
@@ -40,7 +40,7 @@ function Content({ children }: { children: JSX.Element }) {
   )
 }
 
-export function LayoutDefault({ children }: { children: JSX.Element }) {
+export function Layout({ children }: { children: JSX.Element }) {
   return (
     <div
       style={{
